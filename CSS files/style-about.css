@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header of every page */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li a {
+    color: white;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+/* About page main section */
+section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* footer of every page */
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #333;
+    padding: 10px,0;
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
